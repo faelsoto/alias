@@ -1,0 +1,3 @@
+# http://superuser.com/questions/178587/how-do-i-detach-a-process-from-terminal-entirely
+# alias subl="gnome-terminal -e 'subl $(printf "%q " "$@")'"
+alias gitg="(gitg -- --all &)"
