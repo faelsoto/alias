@@ -1,3 +1,7 @@
-# http://superuser.com/questions/178587/how-do-i-detach-a-process-from-terminal-entirely
-# alias subl="gnome-terminal -e 'subl $(printf "%q " "$@")'"
-alias gitg="(gitg -- --all &)"
+alias open="gnome-open ."
+alias subl="(subl . &)"
+alias gitg="(gitg --all &)"
+alias wp="cd ~/www/wp; (firefox -new-tab http://0.0.0.0:8888 &); php -S 0.0.0.0:8888"
+alias autoupload="ruby ~/www/autoupload/listen.rb"
+alias trigger="python ~/forge/TriggerToolkit/run_trigger_toolkit.py"
+alias forge="~/forge/TriggerToolkit/forge"
